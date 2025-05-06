@@ -1,0 +1,127 @@
+/* Estilos generales para toda la tienda */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background: linear-gradient(135deg, #2c3e50, #1a2639);
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+    position: relative;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+
+.boton-volver {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.menu-catalogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 30px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.categoria {
+    background: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s;
+    width: 300px;
+    text-align: center;
+}
+
+.categoria:hover {
+    transform: translateY(-5px);
+}
+
+.categoria img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.categoria h2 {
+    margin: 15px 0;
+    color: #2c3e50;
+}
+
+.contacto-fijo {
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    padding: 15px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.info-contacto {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.info-contacto h3 {
+    margin: 0;
+    font-size: 1.1rem;
+    color: #f39c12;
+}
+
+.info-contacto p {
+    margin: 5px 0;
+    font-size: 0.9rem;
+}
+
+.info-contacto a {
+    color: #f1c40f;
+    text-decoration: none;
+    transition: color 0.3s;
+    display: inline-block;
+    padding: 5px 10px;
+    border-radius: 4px;
+    background: rgba(255, 255, 255, 0.1);
+}
+
+.info-contacto a:hover {
+    color: white;
+    background: rgba(255, 255, 255, 0.2);
+}
+
+/* Asegurar que el contenido no quede detrás */
+body {
+    padding-bottom: 120px; /* Ajusta según la altura de tu footer */
+}
