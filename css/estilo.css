@@ -8,9 +8,9 @@ body {
 }
 
 header {
-    background: linear-gradient(135deg, #2c3e50, #1a2639);
-    color: white;
-    padding: 40px 20px;
+    background: #000000; /* Fondo negro sólido */
+    color: white; /* Letras doradas */
+    padding: 20px 20px;
     text-align: center;
     position: relative;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
@@ -19,22 +19,23 @@ header {
 header h1 {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-    font-size: 3rem;
+    font-size: 2rem; /* Reducir el tamaño de fuente */
     font-weight: 700;
-    letter-spacing: 2px;
+    letter-spacing: 1px; /* Reducir el espaciado */
     text-transform: uppercase;
     position: relative;
     display: inline-block;
-    padding-bottom: 15px;
+    padding-bottom: 10px; /* Reducir el padding */
 }
 
 .boton-volver {
-    color: white;
+    color: white; /* Dorado */
     text-decoration: none;
-    font-size: 1.2em;
+    font-size: 1em;
     position: absolute;
-    left: 20px;
-    top: 20px;
+    left: 15px;
+    top: 15px;
+    padding: 5px;
 }
 
 .menu-catalogo {
@@ -73,16 +74,16 @@ header h1 {
 }
 
 .contacto-fijo {
-    background: linear-gradient(135deg, #2c3e50, #34495e);
-    color: white;
-    padding: 15px 0;
+    background: #000000; /* Fondo negro sólido */
+    color: white; /* Letras doradas */
+    padding: 10px 0;
     text-align: center;
     position: fixed;
     bottom: 0;
     width: 100%;
     z-index: 1000;
     box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    border-top: 1px solid rgba(255, 215, 0, 0.3); /* Borde superior dorado sutil */
 }
 
 .info-contacto {
@@ -97,31 +98,31 @@ header h1 {
 
 .info-contacto h3 {
     margin: 0;
-    font-size: 1.1rem;
-    color: #f39c12;
+    font-size: 0.9rem; 
+    color: white;
 }
 
 .info-contacto p {
-    margin: 5px 0;
+    margin: 0; /* Elimina márgenes por defecto */
     font-size: 0.9rem;
-}
+}   
 
 .info-contacto a {
-    color: #f1c40f;
+    color: white; 
     text-decoration: none;
-    transition: color 0.3s;
+    transition: all 0.3s;
     display: inline-block;
-    padding: 5px 10px;
-    border-radius: 4px;
-    background: rgba(255, 255, 255, 0.1);
+    padding: 5px 0; /* Ajuste para que no sea muy ancho */
 }
 
 .info-contacto a:hover {
     color: white;
-    background: rgba(255, 255, 255, 0.2);
+    text-decoration: underline;
+}
+.info-contacto div {
+    margin: 0 10px;
 }
 
-/* Asegurar que el contenido no quede detrás */
 body {
-    padding-bottom: 120px; /* Ajusta según la altura de tu footer */
+    padding-bottom: 80px; /* Reducir el padding */
 }
