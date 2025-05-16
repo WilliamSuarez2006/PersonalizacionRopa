@@ -6,13 +6,16 @@
     padding: 30px;
     max-width: 1200px;
     margin: 0 auto;
-}
+}   
 
 .producto {
     background: white;
-    border-radius: 8px;
+    border-radius: 12px;
     overflow: hidden;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.1);
+    position: relative;
+    border: 1px solid rgba(0,0,0,0.05);
 }
 
 .producto img {
@@ -43,6 +46,7 @@
     background: rgba(231, 76, 60, 0.2); /* Fondo más visible */
     transform: scale(1.05); /* Efecto de zoom */
     transition: all 0.3s;
+    border-radius: 20px;
 }
 
 .descripcion {
