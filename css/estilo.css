@@ -146,3 +146,9 @@ header h1 {
 body {
     padding-bottom: 80px; 
 }
+@media (max-width: 768px) {
+  .servicio-destacado p {
+    font-size: 1rem; /* Prioriza legibilidad */
+    padding: 10px;
+  }
+}
